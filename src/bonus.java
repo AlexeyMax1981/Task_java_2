@@ -11,7 +11,7 @@ public class bonus {
             myBonus = 0;
             schet = myCount + myDepositedFunds + myBonus;
         }
-//        int schet = myCount  + myDepositedFunds  + myBonus;
+//        int schet = myCount + myDepositedFunds + myBonus;
         System.out.println("Сумма бонусов равна " + myBonus);
         System.out.println("Сумма счета равна " + schet);
     }
