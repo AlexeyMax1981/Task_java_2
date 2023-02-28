@@ -1,18 +1,18 @@
 public class bonus {
     public static void main(String[] args) {
-        int a = 100;
-        int b = 13500;
-        int c;
+        int myCount = 100;
+        int myDepositedFunds = 1001;
+        int myBonus;
         int schet;
-        if (b > 1000) {
-            c = b / 100;
-            schet = a + b + c;
+        if (myDepositedFunds > 1000) {
+            myBonus = myDepositedFunds / 100;
+            schet = myCount + myDepositedFunds + myBonus;
         } else {
-            c = 0;
-            schet = a + b + c;
+            myBonus = 0;
+            schet = myCount + myDepositedFunds + myBonus;
         }
-//        int schet = a + b + c;
-        System.out.println("Сумма бонусов равна " + c);
+//        int schet = myCount  + myDepositedFunds  + myBonus;
+        System.out.println("Сумма бонусов равна " + myBonus);
         System.out.println("Сумма счета равна " + schet);
     }
 }
