@@ -1,4 +1,4 @@
-public class bonus {
+public class FreeMiles {
     public static void main(String[] args) {
         int myCount = 100;
         int myDepositedFunds = 1001;
